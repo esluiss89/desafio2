@@ -1,0 +1,68 @@
+html {
+    background-color: black;
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+main {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.bg-main {
+    background-image: url("/desafio_2/img/mac-1.jpg");
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    height: 200px;
+    width: 100%;
+    padding: 20px;
+}
+
+.bg-main h1 {
+    margin-top: 68px;
+    color: black;
+}
+
+.bg-main p {
+    color: black;
+}
+
+h1, p {
+    margin: 0px;
+    color: white;
+}
+
+.producto {
+    margin-bottom: 12px;
+}
+
+.producto img {
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+}
+
+.producto .info {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 60px;
+    margin-right: 30px;
+    color: white;
+}
+
+.footer {
+    height: 50px;
+    width: 100%;
+    background-color: gray;
+    text-align: center;
+}
+
+.footer p {
+    color: white;
+    padding-top: 10px;
+}
